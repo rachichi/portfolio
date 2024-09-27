@@ -6,7 +6,7 @@ export function Footer() {
     <div className="footer">
         <hr />
         <div className="footer-bottom">
-            <p>made with pain by rachel. 2024</p>
+            <p>made with blood, sweat, and react by rachel in 2024</p>
         </div>
     </div>
   )

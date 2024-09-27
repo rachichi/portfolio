@@ -22,14 +22,14 @@ export function Navbar() {
 
     return(
         <div className="navbar">
-            <div class="logo">Rachel 静如 Liu</div>
+            <div className="logo"><Link to = "/" className='link'>Rachel 静如 Liu</Link></div>
             <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
             <ul ref={menuRef} className="nav-menu">
                 <img src={menu_close} onClick={closeMenu} alt="" className='nav-mob-close' />
-                <li><Link to = "/" className='anchor-link'>Home</Link></li>
-                <li><Link to = "/Projects" className='anchor-link'>Projects</Link></li>
-                <li><Link to = "/About" className='anchor-link'>About</Link></li>
-                <li><Link to = "https://www.autodesk.com/" target="_blank" className='anchor-link'>Resumé</Link></li>
+                <li><Link to = "/" className='link'>Home</Link></li>
+                <li><Link to = "/Work" className='link'>Work</Link></li>
+                <li><Link to = "/About" className='link'>About</Link></li>
+                <li><Link to = "https://www.autodesk.com/" target="_blank" className='link'>Resumé</Link></li>
             </ul>
         </div>
     )

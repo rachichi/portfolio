@@ -1,9 +1,11 @@
-
+import { Hero } from "../components/hero/Hero";
+import { MyWork } from "../components/mywork/MyWork";
 
 export function Home() {
     return(
         <>
-            <h1>Welcome to Gym Supplement Store!</h1>
+            <Hero/>
+            <MyWork/>
         </>
     )
 }
