@@ -1,11 +1,11 @@
 import { Hero } from "../components/hero/Hero";
-import { MyWork } from "../components/mywork/MyWork";
+import { FtWork } from "../components/ftwork/FtWork";
 
 export function Home() {
     return(
         <>
             <Hero/>
-            <MyWork/>
+            <FtWork/>
         </>
     )
 }

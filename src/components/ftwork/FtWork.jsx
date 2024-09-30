@@ -1,9 +1,9 @@
 import React from 'react'
-import './MyWork.css'
+import './FtWork.css'
 import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 
-export function MyWork() {
+export function FtWork() {
   return (
     <div id='work' className="mywork">
         <div className="mywork-title">

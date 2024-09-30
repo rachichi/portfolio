@@ -4,6 +4,7 @@ import { Layout } from './components/Layout'
 import { About } from './pages/About'
 import { Home } from './pages/Home'
 import { Work } from './pages/Work'
+import { ProjTemplate } from './pages/projpages/ProjTemplate'
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/Work" element={<Work/>}/>
           <Route path="/About" element={<About/>}/>
+
+          <Route path="/ProjectTemplate" element={<ProjTemplate/>}/>
         </Route>
       </Routes>
     </Router>

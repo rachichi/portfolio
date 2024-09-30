@@ -1,23 +1,38 @@
 import React from 'react'
 import './MyWork.css'
-import mywork_data from '../../assets/mywork_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
+import greybox from '../../assets/greybox.png'
+import { Link } from 'react-router-dom'
 
 export function MyWork() {
   return (
-    <div id='work' className="mywork">
-        <div className="mywork-title">
-            <h1>Featured projects</h1>
+    <div className="work">
+      <h1>WORK</h1>
+      <div className="card-container">
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Project Template</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <Link to ="/ProjectTemplate" className="btn">Read More</Link>
+          </div>
         </div>
-        <div className="mywork-container">
-            {mywork_data.map((work, index)=>{
-                return <img key={index} src={work.w_img} alt="" />
-                })}
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
         </div>
-        <div className="mywork-showmore">
-            <p>Show More</p>
-            <img src={arrow_icon} alt="" />
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
         </div>
     </div>
+  </div>
   )
 }
