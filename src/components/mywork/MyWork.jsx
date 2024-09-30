@@ -32,6 +32,54 @@ export function MyWork() {
             <a href="https://www.ucla.edu/" className="btn">Read More</a>
           </div>
         </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
+        <div className="card">
+          <img src={greybox} alt="placeholder image"/>
+          <div className="card-content">
+            <h3>Card 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa fugiat quos, incidunt, totam repellendus quas quidem rem accusamus, tempore adipisci quia voluptates magni consequatur architecto natus consequuntur. Ipsam, non.</p>
+            <a href="https://www.ucla.edu/" className="btn">Read More</a>
+          </div>
+        </div>
     </div>
   </div>
   )

@@ -16,8 +16,9 @@ export function ProjTemplate() {
             </section>
             <section className="proj-body">
                 <section className="proj-over"></section>
-                <h2>Background</h2>
-                <div className="project-detail-info-box">
+                <h2>Overview</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci, nulla consequatur ab. Aliquid, temporibus!<br/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias non vero porro doloribus provident reiciendis voluptate perferendis harum! Qui dolorem dolorum a distinctio tempore modi mollitia, cum quia doloribus? Quas?</p>
+                <div className="project-callout">
                     <div className="project-detail-info-box-column">
                         <h3>Time frame</h3>
                         <br/>
@@ -57,15 +58,45 @@ export function ProjTemplate() {
                         </ul>
                     </div>
                 </div>
-                <h3>Background & Problem Statement</h3>
-                <h4>Client Needs</h4>
-                <p>We first met with our clients at the Asian American Studies Department to understand where they currently were in their project timeline and how we could help them reach their goal:
-                    <ul>
-                        <li><p>A report on user needs and wants: what would make teachers and students want to use the textbook?</p></li>
-                        <li><p>Wanted to understand how to create a textbook that is effective, engaging, and educational.</p></li>
-                    </ul>
-                </p>
-                <h4>Problem Statement:</h4>
+                <h2>The Problem</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci, nulla consequatur ab. Aliquid, temporibus!<br/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias non vero porro doloribus provident reiciendis voluptate perferendis harum! Qui dolorem dolorum a distinctio tempore modi mollitia, cum quia doloribus? Quas?</p>
+                <div className="project-callout">
+                    <div className="project-goal">
+                        <h3>The Goal</h3>
+                        <br/>
+                        <h2>How might we improve the process of finding sound samples and musical inspiration for sound designers?</h2>
+                    </div>
+                </div>
+                <h3>The Problem</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci, nulla consequatur ab. Aliquid, temporibus!<br/>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias non vero porro doloribus provident reiciendis voluptate perferendis harum! Qui dolorem dolorum a distinctio tempore modi mollitia, cum quia doloribus? Quas?</p>
+                <h2>Research</h2>
+                <h3>Identifying User Needs</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Research Goals</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Timeline</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Outcomes</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h2>User Personas</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h2>Experience Map</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h2>List of Recommendations</h2>
+                <h3>Recommendation #1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Recommendation #2</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Recommendation #3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Recommendation #4</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Recommendation #5</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h3>Priority Matrix</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
+                <h2>Learnings and takeaways</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem maxime labore omnis dolorum aperiam deserunt illum eius neque officiis, reprehenderit ut cumque perspiciatis quibusdam adipisci.</p>
             </section>
         </div>
     )

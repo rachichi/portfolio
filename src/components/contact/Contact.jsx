@@ -45,7 +45,7 @@ export function Contact(){
                             <img src={call_icon} alt="" /> <p>650-627-6622</p>
                         </div>
                         <div className="contact-detail">
-                            <img src={location_icon} alt="" /> <p>NY, USA</p>
+                            <img src={location_icon} alt="" /> <p>Brooklyn, NY, USA</p>
                         </div>
                     </div>
                 </div>

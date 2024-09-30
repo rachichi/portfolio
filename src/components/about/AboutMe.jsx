@@ -6,7 +6,7 @@ export function AboutMe(){
   return (
     <div id='about' className='about'>
         <div className="about-title">
-            <h1>About Me</h1>
+            <h1>ABOUT ME</h1>
         </div>
         <div className="about-sections">
             <div className="about-left">
