@@ -1,9 +1,9 @@
 .proj{
     padding: 50px;
+    text-align: left;
 }
 .proj h1{
     padding: 0;
-    text-align: left;
 }
 .proj img {
     display: flex;

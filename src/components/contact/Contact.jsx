@@ -32,7 +32,7 @@ export function Contact(){
     return (
         <div id='contact' className="contact">
             <div className="contact-title">
-                <h2>Get in touch</h2>
+                <h2>get in touch</h2>
             </div>
             <div className="contact-section">
                 <div className="contact-left">

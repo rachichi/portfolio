@@ -1,8 +1,16 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   padding: 0rem;
-  text-align: center;
+  text-align: left;
 }
 
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-content: space-between;
+}
 
