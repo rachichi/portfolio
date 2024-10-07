@@ -10,7 +10,6 @@
     border-bottom: 1px solid darkgrey
 }
 .hero p{
-    color: darkgrey;
     margin: 50px 100px;
 }
 /* hero links side by side */
@@ -29,12 +28,23 @@
     background: #FA4CEE;
     cursor: pointer;
 }
+.hero-connect a {
+    color: white;
+}
+.connect-icon {
+    color: white;
+    margin-left: 15px;
+}
 /* hero resume */
 .hero-resume {
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+}
+.resume-icon {
+    color: black;
+    margin-left: 15px;
 }
 /* hero hover effects */
 .hero-connect:hover{

@@ -16,18 +16,16 @@
     margin: 10px;
     border-radius: 50%;
 }
-.socialIcons a i{
-    font-size: 2em;
+.socialIcons .svg-inline--fa {
     color: black;
-    opacity: 0,9;
 }
 /* Hover affect on social media icon */
 .socialIcons a:hover{
     background-color: #FA4CEE;
     transition: 0.5s;
 }
-.socialIcons a:hover i{
-    color: black;
+.socialIcons .svg-inline--fa:hover {
+    color: white;
     transition: 0.5s;
 }
 .footerNav{

@@ -1,11 +1,13 @@
 import React from 'react'
 import './FtWork.css'
 import mywork_data from '../../assets/mywork_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { Link } from "react-router-dom"
 
 export function FtWork() {
   return (
-    <div id='work' className="mywork">
+    <div id='ftwork' className="mywork">
         <div className="mywork-title">
             <h1>Featured projects</h1>
         </div>
@@ -15,8 +17,8 @@ export function FtWork() {
                 })}
         </div>
         <div className="mywork-showmore">
-            <p>Show More</p>
-            <img src={arrow_icon} alt="" />
+            <Link to = "/Work" className='link'>Show More</Link>
+            <FontAwesomeIcon className='resume-icon' icon={faArrowAltCircleRight}/>
         </div>
     </div>
   )
