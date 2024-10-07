@@ -11,7 +11,7 @@ export function Hero(){
   return (
     <div className='hero'>
         <img src={homeImg}/>
-        <p>Hi, I'm Rachel. I build data-driven solutions, specializing in large-scale platform transformations</p>
+        <div className="rachel-body-2">Hi, I'm Rachel. I build data-driven solutions, specializing in large-scale platform transformations</div>
         <div className="hero-action">
             <div className="hero-resume">
               <Link to = "/Work" className='link'>Check out my work</Link>

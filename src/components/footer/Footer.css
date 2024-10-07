@@ -49,19 +49,12 @@
     opacity: 1;
 }
 .footerBottom{
-    background-color: #FA4CEE;
+    background-color: #fff3f3;
     padding: 20px;
     text-align: center;
 }
 .footerBottom p{
-    color: white;
-}
-.designer{
-    opacity: 0.7;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 400;
-    margin: 0px 5px;
+    color: FA4CEE;
 }
 @media (max-width: 700px){
     .footerNav ul{
